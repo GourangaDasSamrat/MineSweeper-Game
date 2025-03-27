@@ -8,6 +8,14 @@ Check out the live version of the game: [MineSweeper-Game]()
 🌐 **Demo Video**
 Watch the video walkthrough of the project to see it in action!
 
+
+https://github.com/user-attachments/assets/30aba4a9-2b44-48e5-9a31-1ab53ed25e3a
+
+
+
+https://github.com/user-attachments/assets/837fa707-fb47-4f8a-9bb9-31e23cb87e7b
+
+
 ## ✨ Features
 
 * 📱 **Mobile Responsive:** Play comfortably on any device! 🥳
