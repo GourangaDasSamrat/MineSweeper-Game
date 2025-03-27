@@ -3,7 +3,7 @@
 A classic MineSweeper game built for the web platform. 🚀
 
 🎥 **Live Demo**
-Check out the live version of the game: [MineSweeper-Game]()
+Check out the live version of the game: [MineSweeper-Game](https://minesweeperbygouranga.tiiny.site)
 
 🌐 **Demo Video**
 Watch the video walkthrough of the project to see it in action!
@@ -41,6 +41,7 @@ MineSweeper-Game/
 1.  Clone this repository:
 
     ```bash
+    git@github.com:GourangaDasSamrat/MineSweeper-Game.git
 
 2.  Navigate to the project directory:
     ```bash
@@ -50,7 +51,7 @@ MineSweeper-Game/
 
 or
 
-**[Click here]() to see this project on internet.**
+**[Click here](https://minesweeperbygouranga.tiiny.site) to see this project on internet.**
 
 
 ## ▶️ How to Play
