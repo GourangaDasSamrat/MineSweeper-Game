@@ -3,7 +3,7 @@
 A classic MineSweeper game built for the web platform. 🚀
 
 🎥 **Live Demo**
-Check out the live version of the game: [MineSweeper-Game](https://minesweeperbygouranga.tiiny.site)
+Check out the live version of the game: [MineSweeper-Game](https://mine-sweeper-game-mauve.vercel.app/)
 
 🌐 **Demo Video**
 Watch the video walkthrough of the project to see it in action!
@@ -51,7 +51,7 @@ MineSweeper-Game/
 
 or
 
-**[Click here](https://minesweeperbygouranga.tiiny.site) to see this project on internet.**
+**[Click here](https://mine-sweeper-game-mauve.vercel.app/) to see this project on internet.**
 
 
 ## ▶️ How to Play
