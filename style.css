@@ -1,44 +1,113 @@
-body{
-    background-color: #263238;
-    color: #ddd;
-    font-family: courier;
-    display: grid;
-    align-content: center;
-    justify-content: center;
-    height: 100vh;
-    overflow: hidden;
+body {
+  background-color: #263238;
+  color: #ddd;
+  font-family: courier;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
 }
 
-h1{
-    font-size: 14pt;
-    font-weight: normal;
+h1 {
+  font-size: 14pt;
+  font-weight: normal;
+  text-align: center;
 }
 
-#grid{
-    margin-left: auto;
-    margin-right: auto;
+#grid {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  background-color: #37474f;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
-#grid tr td{
-    border: 1px solid #fff;
-    background-color: #999;
-    width: 20px;
-    height: 20px;
-    text-align: center;
+#grid tr td {
+  border: 1px solid #455a64;
+  background-color: #546e7a;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
 }
 
-#grid tr td.active{
-    background-color: #333;
+#grid tr td:hover {
+  background-color: #607d8b;
 }
 
-#grid tr td.mine{
-    background-color: #d84315;
+#grid tr td.active {
+  background-color: #263238;
 }
 
-button{
-    margin: 12px 0;
-    padding: 4px 0;
-    border: none;
-    outline: none;
-    cursor: pointer;
+#grid tr td.mine {
+  background-color: #d32f2f;
+  animation: explode 0.5s ease;
+}
+
+@keyframes explode {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+button {
+  margin: 12px auto;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  display: block;
+}
+
+button:hover {
+  background-color: #43a047;
+}
+
+/* Number colors */
+#grid tr td.active[mine="false"] {
+  color: #fff;
+}
+
+#grid tr td.active {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Color coding for numbers */
+#grid tr td.active:contains("1") {
+  color: #4caf50;
+}
+#grid tr td.active:contains("2") {
+  color: #2196f3;
+}
+#grid tr td.active:contains("3") {
+  color: #f44336;
+}
+#grid tr td.active:contains("4") {
+  color: #9c27b0;
+}
+#grid tr td.active:contains("5") {
+  color: #ff9800;
+}
+#grid tr td.active:contains("6") {
+  color: #00bcd4;
+}
+#grid tr td.active:contains("7") {
+  color: #795548;
+}
+#grid tr td.active:contains("8") {
+  color: #607d8b;
 }
