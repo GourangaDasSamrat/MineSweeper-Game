@@ -15,7 +15,7 @@
 
 [View Demo](https://mine-sweeper-game-mauve.vercel.app/) · [Report Bug](https://github.com/GourangaDasSamrat/MineSweeper-Game/issues) · [Request Feature](https://github.com/GourangaDasSamrat/MineSweeper-Game/issues) · [Star Project ⭐](https://github.com/GourangaDasSamrat/MineSweeper-Game)
 
-<img src="https://i.postimg.cc/QxFR9H3w/minesweeper-preview.jpg" alt="MineSweeper Preview" width="600" style="border-radius:10px;margin:20px 0;box-shadow:0 5px 15px rgba(0,0,0,0.2);" />
+
 
 </div>
 
